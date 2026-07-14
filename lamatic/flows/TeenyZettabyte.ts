@@ -10,6 +10,10 @@ const flowConfig = {
         },
         "nodeId": "googleDriveNode",
         "values": {
+          "id": "triggerNode_1",
+          "globs": [
+            "*.pdf"
+          ],
           "nodeName": "Google Drive",
           "syncMode": "incremental_append",
           "folderUrl": "https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx",
@@ -19,9 +23,34 @@ const flowConfig = {
         "trigger": true
       },
       "type": "triggerNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
         "y": 0
+      },
+      "selected": true
+    },
+    {
+      "id": "variablesNode_272",
+      "data": {
+        "modes": {},
+        "nodeId": "variablesNode",
+        "values": {
+          "mapping": "{\"title\":{\"type\":\"string\",\"value\":\"{{triggerNode_1.output.document_key}}\"},\"source\":{\"type\":\"string\",\"value\":\"https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx?usp=sharing\"}}",
+          "nodeName": "Variables"
+        }
+      },
+      "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
+      "position": {
+        "x": 0,
+        "y": 130
       }
     },
     {
@@ -42,9 +71,13 @@ const flowConfig = {
         }
       },
       "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
-        "y": 0
+        "y": 260
       }
     },
     {
@@ -57,9 +90,13 @@ const flowConfig = {
         }
       },
       "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
-        "y": 0
+        "y": 390
       }
     },
     {
@@ -80,9 +117,13 @@ const flowConfig = {
         }
       },
       "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
-        "y": 0
+        "y": 520
       }
     },
     {
@@ -95,9 +136,13 @@ const flowConfig = {
         }
       },
       "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
-        "y": 0
+        "y": 650
       }
     },
     {
@@ -117,9 +162,13 @@ const flowConfig = {
         }
       },
       "type": "dynamicNode",
+      "measured": {
+        "width": 250,
+        "height": 93
+      },
       "position": {
         "x": 0,
-        "y": 0
+        "y": 780
       }
     },
     {
@@ -131,25 +180,13 @@ const flowConfig = {
         }
       },
       "type": "addNode",
-      "position": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "id": "variablesNode_272",
-      "data": {
-        "modes": {},
-        "nodeId": "variablesNode",
-        "values": {
-          "mapping": "{\"title\":{\"type\":\"string\",\"value\":\"{{triggerNode_1.output.document_key}}\"},\"source\":{\"type\":\"string\",\"value\":\"https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx?usp=sharing\"}}",
-          "nodeName": "Variables"
-        }
+      "measured": {
+        "width": 250,
+        "height": 100
       },
-      "type": "dynamicNode",
       "position": {
         "x": 0,
-        "y": 0
+        "y": 910
       }
     }
   ],
