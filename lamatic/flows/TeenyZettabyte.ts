@@ -73,9 +73,9 @@ const flowConfig = {
             "type": "embedder/text",
             "params": {},
             "model_name": "gemini/gemini-embedding-001(3072)",
-            "credentialId": "ec36bc60-8dbe-4b0f-ba8c-23f1ae732ebd",
+            "credentialId": "caf2ada4-a11f-4991-93ce-29508076cab6",
             "provider_name": "gemini",
-            "credential_name": "Test_model"
+            "credential_name": "Test_lamatic"
           }
         }
       },
