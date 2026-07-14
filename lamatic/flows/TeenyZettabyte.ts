@@ -142,7 +142,7 @@ const flowConfig = {
         "modes": {},
         "nodeId": "variablesNode",
         "values": {
-          "mapping": "{\n  \"title\": {\n    \"type\": \"string\",\n    \"value\": \"{{triggerNode_1.output.document_key}}\"\n  },\n  \"source\": {\n    \"type\": \"string\",\n    \"value\": \"https://drive.google.com/drive/folders/1oeBVP-aokrik2iSlb9QYNQZXZ13ViXvs?usp=sharing\"\n  }\n}",
+          "mapping": "{\"title\":{\"type\":\"string\",\"value\":\"{{triggerNode_1.output.document_key}}\"},\"source\":{\"type\":\"string\",\"value\":\"https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx?usp=sharing\"}}",
           "nodeName": "Variables"
         }
       },
