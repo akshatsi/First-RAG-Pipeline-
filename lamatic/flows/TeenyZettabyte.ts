@@ -6,13 +6,13 @@ const flowConfig = {
       "id": "triggerNode_1",
       "data": {
         "modes": {
-          "folderUrl": "url"
+          "folderUrl": "list"
         },
         "nodeId": "googleDriveNode",
         "values": {
           "nodeName": "Google Drive",
           "syncMode": "incremental_append",
-          "folderUrl": "https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx?usp=sharing",
+          "folderUrl": "https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx",
           "credentials": "Google Drive OAuth",
           "cronExpression": "0 0 00 ? * 1 * UTC"
         },
