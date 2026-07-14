@@ -12,7 +12,7 @@ const flowConfig = {
         "values": {
           "nodeName": "Google Drive",
           "syncMode": "incremental_append",
-          "folderUrl": "https://drive.google.com/drive/u/0/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx",
+          "folderUrl": "https://drive.google.com/drive/folders/14B2dF8V27EhyqGoawj44mYsXtVy2cLLx?usp=sharing",
           "credentials": "Google Drive OAuth",
           "cronExpression": "0 0 00 ? * 1 * UTC"
         },
